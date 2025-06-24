@@ -1,0 +1,9 @@
+static_library("myled"){
+    sources = [
+        "led_example.c"
+    ]
+    include_dirs = [
+        "//utils/native/lite/include",
+        "//ohos_bundles/@ohos/iot_controller/interfaces/kits/wifiiot_lite/"
+    ]
+}

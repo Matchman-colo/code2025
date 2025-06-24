@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "typeinfo": "cpp",
+        "sensor_example": "cpp",
+        "sensor_example.h": "c",
+        "wifiiot_uart.h": "c"
+    }
+}

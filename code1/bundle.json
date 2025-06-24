@@ -1,0 +1,40 @@
+{
+    "name": "default",
+    "version": "1.0.0",
+    "publishAs": "source",
+    "dirs": {
+        "headers": [
+            "headers/*.h"
+        ],
+        "src": [
+            "src/*.c"
+        ],
+        ".": "Makefile"
+    },
+    "scripts": {
+        "build": "make"
+    },
+    "excludes": [],
+    "envs": {},
+    "description": "This is a default bundle",
+    "rom": "10",
+    "ram": "20",
+    "ohos": {
+        "os": "",
+        "board": "",
+        "kernel": ""
+    },
+    "contributors": [
+        {
+            "name": "",
+            "email": ""
+        }
+    ],
+    "keywords": [],
+    "tags": [],
+    "license": "MIT",
+    "base": {
+        "name": "@bearpi/bearpi_hm_nano",
+        "version": "^1.0.5"
+    }
+}
